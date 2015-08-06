@@ -4,7 +4,7 @@ fun init nid =
 fun handler r = 
   return 
     <xml><body>
-      {[r.Foo]}
+      {[r.DateField]}
     </body></xml>
 
 fun main () = 
@@ -23,7 +23,7 @@ fun main () =
       </head>
       <body onload={init foo_id}>
         <form>
-          <textbox{#Foo} id={foo_id}/>
+          <textbox{#DateField} id={foo_id}/>
           <submit action={handler}/>
         </form>
       </body>
