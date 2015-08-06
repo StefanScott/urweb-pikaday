@@ -1,0 +1,6 @@
+allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.css
+allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css
+script https://raw.githubusercontent.com/dbushell/Pikaday/master/pikaday.js
+library pikadayControl
+
+pikadayPage
