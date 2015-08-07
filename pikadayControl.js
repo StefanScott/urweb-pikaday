@@ -1,6 +1,4 @@
-function init ( 
-  nodeId
-) = {
+function init ( nodeId ) = {
   var picker = new Pikaday ( { 
     field: document.getElementById(nodeId),
     firstDay: 1,

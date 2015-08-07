@@ -1,3 +1,3 @@
 val init : 
   id -> 
-  transaction unit
+  transaction xbody

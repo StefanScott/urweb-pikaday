@@ -21,9 +21,10 @@ fun main () =
           type="text/css" 
           href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css" />
       </head>
-      <body onload={init foo_id}>
+      <body>
         <form>
           <textbox{#DateField} id={foo_id}/>
+          <active code={init foo_id; return <xml/>}/>
           <submit action={handler}/>
         </form>
       </body>
