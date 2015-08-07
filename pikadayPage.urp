@@ -2,5 +2,7 @@ allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.
 allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css
 script https://raw.githubusercontent.com/dbushell/Pikaday/master/pikaday.js
 library pikadayControl
+jsFunc PikadayControl.init=init
+benignEffectful PikadayControl.init
 
 pikadayPage
