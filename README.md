@@ -1,10 +1,10 @@
 # urweb-wrap-pikaday
 
-This does not compile yet!
-
 This is an attempt to wrap the Pikaday library, for use with Ur/Web. 
 
 https://github.com/dbushell/Pikaday
+
+This compiles and runs - but it does not run correctly. When the user clicks in the field, a datepicker should appear - but it doesn't.
 
 I found an example of using Ur/Web's JavaScript FFI, which I am using as a guide:
 
