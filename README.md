@@ -1,13 +1,11 @@
 # urweb-wrap-pikaday
 
-This is an attempt to wrap the Pikaday library, for use with Ur/Web. 
+This is a wrapper the Pikaday library, for use with Ur/Web.
+
+Pikaday, by David Bushell, is a simple JavaScript library providing a datepicker widget. It has no dependencies on any other JavaScript libraries, and it uses "modular" CSS: 
 
 https://github.com/dbushell/Pikaday
 
-This compiles and runs - but it does not run correctly. When the user clicks in the field, a datepicker should appear - but it doesn't.
+Many thanks to Istvan Chung for correcting the previous errors in my Ur/Web (and JavaScript!) code, and getting this to work.
 
-I found an example of using Ur/Web's JavaScript FFI, which I am using as a guide:
-
-https://github.com/dbp/dnplayer/blob/master/dn.ur
-
-I'm trying to learn how to connect the various pieces involved in this JavaScript FFI example.
+(PS - In my testing, I compiled this *without* using the Makefile provided by Istvan, since I was unsure how to use it.)

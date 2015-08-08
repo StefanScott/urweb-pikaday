@@ -1,6 +1,9 @@
-allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.css
-allow url https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css
-script https://raw.githubusercontent.com/dbushell/Pikaday/master/pikaday.js
+file /pikaday.css pikaday.css
+allow url /pikaday.css
+file /site.css site.css
+allow url /site.css
+file /pikaday.js pikaday.js
+script /pikaday.js
 file /pikadayControl.js pikadayControl.js
 script /pikadayControl.js
 library pikadayControl

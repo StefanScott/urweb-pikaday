@@ -12,11 +12,11 @@ fun main () =
         <link
           rel="stylesheet"
           type="text/css"
-          href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.css" />
+          href="/pikaday.css" />
         <link
           rel="stylesheet"
           type="text/css"
-          href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css" />
+          href="/site.css" />
       </head>
       <body onload={PikadayControl.init foo_id}>
         <form>
