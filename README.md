@@ -14,7 +14,7 @@ Many thanks to:
 ```
   <active code ={...}>
 ```
-The Pull Request from Istvan has now been merged, correcting the previous errors in my Ur/Web (and JavaScript) code. The code now compiles and runs correctly - also currently using Ur/Web's `file` directive to serve the "static" JavaScript and CSS files.
+The Pull Request from Istvan has now been merged, correcting the previous errors in my Ur/Web (and JavaScript) code. The code now compiles and runs correctly - currently using Ur/Web's `file` directive as also suggested by Istvan, to serve the "static" JavaScript and CSS files.
 
 (Later, in production, a webserver such as nginx can be used to serve the static files.)
 
