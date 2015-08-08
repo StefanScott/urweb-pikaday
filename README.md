@@ -8,12 +8,12 @@ Pikaday, by David Bushell, is a simple JavaScript library providing a datepicker
 
 Many thanks to:
 
-- [Ziv Scully](http://www.impredicative.com/pipermail/ur/2015-August/002162.html) for his initial suggestion to use the tag:
-
-  <active code ={...}>
-
 - [Istvan Chung](http://www.impredicative.com/pipermail/ur/2015-August/002165.html) for his [Pull Request](https://github.com/StefanScott/urweb-pikaday/pull/1) getting this to work. 
 
+- [Ziv Scully](http://www.impredicative.com/pipermail/ur/2015-August/002162.html) for his initial suggestion to use the tag:
+```
+  <active code ={...}>
+```
 The Pull Request has now been merged, correcting the previous errors in my Ur/Web (and JavaScript) code. The code now compiles and runs correctly - also currently using Ur/Web's `file` directive to serve the "static" JavaScript and CSS files.
 
 (Later, in production, a webserver such as nginx can be used to serve the static files.)
