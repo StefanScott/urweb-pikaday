@@ -1,6 +1,3 @@
-fun init nid =
-  PikadayControl.init nid
-
 fun handler r =
   return
     <xml><body>
@@ -21,10 +18,9 @@ fun main () =
           type="text/css"
           href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css" />
       </head>
-      <body>
+      <body onload={PikadayControl.init foo_id}>
         <form>
           <textbox{#DateField} id={foo_id}/>
-          <active code={init foo_id; return <xml/>}/>
           <submit action={handler}/>
         </form>
       </body>
