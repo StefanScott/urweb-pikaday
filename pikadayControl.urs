@@ -1,3 +1,3 @@
-val init : 
-  id -> 
+val init :
+  id ->
   transaction xbody

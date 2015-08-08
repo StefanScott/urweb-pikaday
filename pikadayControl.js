@@ -1,5 +1,5 @@
 function init ( nodeId ) = {
-  var picker = new Pikaday ( { 
+  var picker = new Pikaday ( {
     field: document.getElementById(nodeId),
     firstDay: 1,
     minDate: new Date('2000-01-01'),
@@ -7,4 +7,3 @@ function init ( nodeId ) = {
     yearRange: [2000,2020]
   } ) ;
 }
-

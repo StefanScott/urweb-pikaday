@@ -1,24 +1,24 @@
 fun init nid =
   PikadayControl.init nid
 
-fun handler r = 
-  return 
+fun handler r =
+  return
     <xml><body>
       {[r.DateField]}
     </body></xml>
 
-fun main () = 
+fun main () =
   foo_id <- fresh;
-  return 
+  return
     <xml>
       <head>
-        <link 
-          rel="stylesheet" 
-          type="text/css" 
+        <link
+          rel="stylesheet"
+          type="text/css"
           href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.css" />
-        <link 
-          rel="stylesheet" 
-          type="text/css" 
+        <link
+          rel="stylesheet"
+          type="text/css"
           href="https://raw.githubusercontent.com/dbushell/Pikaday/master/css/site.css" />
       </head>
       <body>
@@ -29,6 +29,3 @@ fun main () =
         </form>
       </body>
     </xml>
-
-
-
