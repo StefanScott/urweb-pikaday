@@ -10,4 +10,16 @@ Many thanks to [Istvan Chung's](http://www.impredicative.com/pipermail/ur/2015-A
 
 The Pull Request has now been merged, correcting the previous errors in my Ur/Web (and JavaScript) code. The code now compiles and runs correctly - also currently using Ur/Web's `file` directive to serve the "static" JavaScript and CSS files.
 
-PS - In my testing, I compiled this *without* using the Makefile provided by Istvan, since I was unsure how to use it.
+Note:
+
+In my testing, I compiled this *without* using the Makefile provided by Istvan, since I was unsure how to use it.
+
+To Do:
+
+Currently, the `handler` merely echoes back the date as a string in a human-readable format (eg, "Sat Aug 08 2015". 
+
+Later, if it is desired to use the date in an SQL database, it will probably be necessary to convert the date to a format suitable for Postgres, eg:
+
+http://www.postgresql.org/docs/9.1/static/datatype-datetime.html#DATATYPE-DATETIME-DATE-TABLE
+
+
