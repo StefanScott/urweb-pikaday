@@ -6,6 +6,6 @@ Pikaday, by David Bushell, is a simple JavaScript library providing a datepicker
 
 https://github.com/dbushell/Pikaday
 
-Many thanks to [http://www.impredicative.com/pipermail/ur/2015-August/002165.html](Istvan Chung) for correcting several errors in my Ur/Web (and JavaScript) code, and getting this to work.
+Many thanks to [Istvan Chung](http://www.impredicative.com/pipermail/ur/2015-August/002165.html) for correcting several errors in my Ur/Web (and JavaScript) code, and getting this to work.
 
 (PS - In my testing, I compiled this *without* using the Makefile provided by Istvan, since I was unsure how to use it.)
