@@ -1,1 +1,3 @@
 ffi pikadayControl
+jsFunc PikadayControl.init=init
+benignEffectful PikadayControl.init
