@@ -10,9 +10,9 @@ Many thanks to:
 
 - [Istvan Chung](http://www.impredicative.com/pipermail/ur/2015-August/002165.html) for his [Pull Request](https://github.com/StefanScott/urweb-pikaday/pull/1) getting this to work. 
 
-- [Ziv Scully](http://www.impredicative.com/pipermail/ur/2015-August/002162.html) for his initial suggestion to use the tag:
+- [Ziv Scully](http://www.impredicative.com/pipermail/ur/2015-August/002162.html) for his explanation of the use of node id's in Ur/Web and his initial suggestion to use the tag:
 ```
-  <active code ={...}>
+  <active code ={init nid; return <xml/>}>
 ```
 The Pull Request from Istvan has now been merged, correcting the previous errors in my Ur/Web (and JavaScript) code. The code now compiles and runs correctly - currently using Ur/Web's `file` directive as also suggested by Istvan, to serve the "static" JavaScript and CSS files.
 
